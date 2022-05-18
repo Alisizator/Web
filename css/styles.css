@@ -10,7 +10,6 @@
     color: rgb(8,8,8);
 }
 .login{
-    /*color: rgb(247,151,30);*/
     color: aliceblue;
 }
 .wrapper {
@@ -30,7 +29,7 @@ body {
     height: 100vh;
 }
 .bodybg {
-    background: no-repeat linear-gradient(180deg, rgba(8,8,8,1) 0%, rgba(26,25,23,1) 50%, rgba(0,0,0,1) 100%);
+    background: no-repeat linear-gradient(180deg, #6600FF 0%, rgba(26,25,23,1) 50%, #00FF66 100%);
 }
 .background404 {
     position: absolute;
@@ -38,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../image/travolta.png) 50% no-repeat;
+    background: url(../image/error.png) 50% no-repeat;
     background-size: contain;
     z-index: -1;
 }
@@ -48,7 +47,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../image/wakeup.jpg) 50% no-repeat;
+    background: url(../image/login.jpg) 50% no-repeat;
     background-size: auto;
     z-index: -1;
 }
